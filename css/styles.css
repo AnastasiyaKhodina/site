@@ -1,0 +1,166 @@
+header{
+    background-image: url(../images/sky.jpg);
+}
+h1{
+    float:left;
+    text-decoration:oblique;
+    color:cadetblue;
+}
+#him {
+    float:left;
+}
+#logo {
+    height: 75px;
+    width: 75px;
+}
+#loupe{
+    float:right;
+    height: 30px;
+    width: 30px;
+}
+#navigation{
+    text-align: center;
+}
+#navigation li{
+    display:inline;
+    padding:15px;
+}
+#navigation li a{
+    display:inline-block;
+     margin-top:25px;
+    width: 5em;
+    padding:10px;
+    background-color: lightsteelblue;
+    border: 5px double lavender;
+    text-align: center;
+    color: azure;
+}
+#navigation li a:hover{
+    background: hotpink;
+}
+#loupe {
+    transition: 1s;
+}
+#loupe:hover{
+    transform:scale(2);
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat:no-repeat;
+    background-size:1400px 488px;
+    background-color: lightsteelblue;
+
+}
+#divnitsze{
+    margin-bottom:1px;
+}
+#nitsze {
+    float:right;
+    transition:1s;
+}
+#nitsze:hover{
+    transform:scale(1.2);
+}
+#textnitsze{
+    font-size:20px;
+    font-family: "Baskerville Old Face";
+    padding: 30px;
+    letter-spacing: 0.2em;
+}
+#flexcontainer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#thought1 {
+    padding:30px;
+    text-align:center;
+    background-color: azure;
+    color:cadetblue;
+    border: 7px groove khaki;
+    order:1;
+    height:360px;
+    width:150px;
+    transition:1s;
+}
+#thought1:hover{
+    transform:scale(1.2);
+}
+#voin{
+    height: 180px;
+    width: 150px;
+}
+#thought2 {
+    padding:30px;
+    text-align:center;
+    background-color: azure;
+    color:cadetblue;
+    border: 7px groove khaki;
+    order:2;
+    height:360px;
+    width:150px;
+    transition:1s;
+}
+#thought2:hover {
+    transform: scale(1.2);
+}
+#lie {
+    height: 150px;
+    width:150px;
+}
+#thought3 {
+    padding:30px;
+    text-align:center;
+    background-color: azure;
+    color:cadetblue;
+    border: 7px groove khaki;
+    order:3;
+    height:360px;
+    width:150px;
+    transition:1s;
+}
+#thought3:hover {
+    transform: scale(1.2);
+}
+#lonely{
+    height: 110px;
+    width:150px;
+}
+#thought4{
+    padding:30px;
+    text-align:center;
+    background-color: azure;
+    color:cadetblue;
+    border: 7px groove khaki;
+    order:4;
+    height:360px;
+    width:150px;
+    transition:1s;
+}
+#thought4:hover {
+    transform: scale(1.2);
+}
+#love {
+    height:120px;
+    width:150px;
+}
+#footer{
+    padding:40px;
+}
+#flogo {
+    height: 100px;
+    width: 100px;
+    float:left;
+    margin-bottom:40px;
+}
+#telega{
+    width:50px;
+    height:50px;
+    text-decoration:none;
+    float:right;
+    transition: 1s;
+}
+#telega:hover{
+ transform:scale(1.5);
+ }
